@@ -102,6 +102,21 @@ Go is always seeking improvement in all areas: performance of the compiler, of t
 
 I know much of this stuff is not new, like generics or PGO. But all of it is thought through carefully and discussed in the community before being merged. And I think Go and its community are an ecosystem that revives and brings light to some old tech in a way that people think it’s new. Because they do it in a developer-friendly way, like PGO. It was already a thing in C++ and other languages. But if you search PGO today, the majority of content, posts, and talks will be related to Golang.
 
+## Go is an ecosystem
+
+Golang is more than a language; it is a Swiss Army knife. When you install it from the official website, you get a powerful tool with the capabilities of:
+
+- testing (`test`)
+- building (`build`)
+- formatting and fixing mistakes (`fmt`, `vet`)
+- managing modules (`mod`)
+- managing dependencies (`get`)
+- analyzing profiles (`tool pprof`)
+
+And benchmarking, outputting test coverage, and much more…
+
+It’s all accessible out of the box with the command line `go <command>`. You don’t have to install different tools to start coding and maintaining your code. Of course, there are some third-party tools that can help you along the way, like `golangci-lint`.
+
 ## The Community
 
 This is another great point: Golang has an active community of enthusiasts. You have official channels for it—Slack, Google Groups—and even the Go repository is a great place to get involved in discussions inside the issues. You can point out improvements or bugs and collaborate through pull requests.
