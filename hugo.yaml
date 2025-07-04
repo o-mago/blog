@@ -71,8 +71,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: "Mago's Blog - Let's talk about Go, Software Engineering, and more!"
+  author: Mago
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
