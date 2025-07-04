@@ -11,6 +11,7 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts", "papermod"]
+publishDir: "docs"
 
 minify:
   disableXML: true
@@ -147,9 +148,9 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+      google:
+          SiteVerificationTag: "G-FNV8YL5XRB"
 
   assets:
     # disableHLJS: true
