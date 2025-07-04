@@ -125,8 +125,11 @@ params:
       title: LinkedIn Profile
       url: "https://linkedin.com/in/alexandre-cabral-bedeschi/"
     - name: github
-      title: View Source on Github
+      title: Github
       url: "https://github.com/adityatelange/hugo-PaperMod"
+    - name: email
+      title: Email
+      url: "mailto:alexcabral.mago@gmail.com"
     - name: website
       title: Website
       url: "https://o-mago.com"
