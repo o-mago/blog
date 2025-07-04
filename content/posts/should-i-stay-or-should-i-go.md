@@ -15,6 +15,8 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 ---
+Let's talk about why Go is so interesting and why I love it!
+
 It took me some time to choose the title of the post. I wanted to play with a song name; the first one that came to my mind was “Should I Stay or Should I Go?” by The Clash, a classic. But then my curiosity made me search for other songs with the word “go.” And there are a lot.
 
 “Go” by Pearl Jam, “Go” by Blink-182, “Go” by Indigo Girls, “Go” by Kelly Clarkson, "Go" by The Smashing Pumpkins, "Go" by Def Leppard, "Go Go Go" by Chuck Berry, “Here I Go Again” by Whitesnake, “Go All the Way” by Raspberries, “Go Your Own Way” by Fleetwood Mac … and the list goes on!
