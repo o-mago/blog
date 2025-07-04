@@ -91,6 +91,8 @@ params:
   # comments: false
   images: ["images/papermod-cover.png"]
 
+  comments: true
+
   # profileMode:
   #   enabled: false
   #   title: PaperMod
