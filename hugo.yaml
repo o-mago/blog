@@ -138,6 +138,9 @@ params:
     - name: rss
       title: RSS Feed
       url: "index.xml"
+    - name: buymeacoffee
+      title: Sponsor me
+      url: "https://github.com/sponsors/o-mago"
 
   # editPost:
   #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
