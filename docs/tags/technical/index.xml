@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Technical on Mago&#39;s Blog</title>
-    <link>https://blog.o-mago.com/tags/technical/</link>
+    <link>http://localhost:1313/tags/technical/</link>
     <description>Recent content in Technical on Mago&#39;s Blog</description>
     <image>
       <title>Mago&#39;s Blog</title>
-      <url>https://blog.o-mago.com/logo.png</url>
-      <link>https://blog.o-mago.com/logo.png</link>
+      <url>http://localhost:1313/logo.png</url>
+      <link>http://localhost:1313/logo.png</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <copyright>Alexandre Cabral</copyright>
     <lastBuildDate>Wed, 09 Jul 2025 12:00:00 -0300</lastBuildDate>
-    <atom:link href="https://blog.o-mago.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Concurrent code testing with synctest bubbles in Go</title>
-      <link>https://blog.o-mago.com/posts/concurrent-code-testing-with-synctest-bubbles-in-go/</link>
+      <link>http://localhost:1313/posts/concurrent-code-testing-with-synctest-bubbles-in-go/</link>
       <pubDate>Wed, 09 Jul 2025 12:00:00 -0300</pubDate>
-      <guid>https://blog.o-mago.com/posts/concurrent-code-testing-with-synctest-bubbles-in-go/</guid>
+      <guid>http://localhost:1313/posts/concurrent-code-testing-with-synctest-bubbles-in-go/</guid>
       <description>Learn how to test concurrent code in Go using the new synctest package, which provides a fake clock and blocking mechanism for goroutines.</description>
     </item>
   </channel>

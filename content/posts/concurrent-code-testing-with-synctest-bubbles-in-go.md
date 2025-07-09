@@ -340,7 +340,7 @@ func request(input string) error {
 }
 ```
 
-Let’s give an example. Imagine a function where you have an `error` channel and you process some stuff on a goroutine; if any error happens, you produce an error in the channel. Then you do some request, and after, you consume the error from the channel in order to return it. But if this request in the middle fails, it will return, and the consumer will vanish faster than beer near me. As we already know (or maybe you are learning here 😄), unbuffered channels must have active producers and consumers. In this case, we have lost the consumer, so the producer will stall and block our goroutine. There’s your leak.
+Let’s give an example. Imagine a function where you have an `error` channel and you process some stuff on a goroutine; if any error happens, you produce an error in the channel. Then you do some request, and after, you consume the error from the channel in order to return it. But if this request in the middle fails, it will return, and the consumer will vanish faster than beer near me. As we already know (or maybe you are learning here 😄), unbuffered channels must have active producers **and** consumers at the same time (we don't have a buffer to hold the information). In this case, we have lost the consumer, so the producer will stall and block our goroutine. There’s your leak.
 
 When we try to test it without `synctest`, we get:
 
@@ -473,6 +473,26 @@ Program exited.
 ```
 
 This happens because we still have a blocked goroutine at the end of the `synctest` bubble. The output is a little bit confusing, I know, but there’s another alternative for it: the [goleak](https://github.com/uber-go/goleak) package by Uber.
+
+And to fix this leak in our code it's easy, we just have to transform our unbuffered channel into a buffered channel, so we can have a buffer to hold the information if the consumer is not there:
+
+```go
+func DoSomething(input string) error {
+	c := make(chan error, 1) // Buffered channel with a capacity of 1
+	
+	go func() {
+		c <- process()
+	}()
+	
+	if err := request(input); err != nil {
+		return err
+	}
+	
+	err := <-c
+
+	return err
+}
+```
 
 ### The 3rd function
 
