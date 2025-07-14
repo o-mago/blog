@@ -114,13 +114,13 @@ params:
   homeInfoParams:
     Title: "Mago's Blog"
     Content: >
-      👋 My name is **Alexandre Cabral** a.k.a **Mago**. I'm a Software Engineer from Brazil 🇧🇷
+      👋 My name is **Alexandre Cabral** a.k.a. **Mago**. I'm a Software Engineer from Brazil 🇧🇷 and Go GDE
 
       - This blog **does not** use AI to generate content
 
       - All thoughts are my own and are related to a moment in time when they were written
 
-      - If you want to share your opinions about my posts or just say hi, feel free to reach out! Have fun 😊
+      - Feel free to reach out and share your opinions about the posts! Have fun 😊
 
   socialIcons:
     - name: linkedin
