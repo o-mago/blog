@@ -140,10 +140,10 @@ I’ve talked about TinyGo, so let’s compile our WASM file with it. The `main.
 GOOS=js GOARCH=wasm tinygo build -o ./assets/main.wasm
 ```
 
-And the JS support file is located in a different place:
+And the JS support file is located in a different place. The location might be different depending on your OS and how you installed TinyGo, but in my case I installed it using Homebrew, so the command to copy the file is:
 
 ```go
-cp "/usr/local/lib/tinygo/targets/wasm_exec.js" ./assets/wasm_exec.js
+cp "/opt/homebrew/Cellar/tinygo/0.38.0/targets/wasm_exec.js" ./assets/wasm_exec.js
 ```
 
 The result is the same, but the file size is quite different. Renaming them to `go.wasm` and `tiny-go.wasm`:
