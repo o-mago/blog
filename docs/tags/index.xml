@@ -9,30 +9,37 @@
       <url>https://blog.o-mago.com/logo.png</url>
       <link>https://blog.o-mago.com/logo.png</link>
     </image>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Alexandre Cabral</copyright>
-    <lastBuildDate>Wed, 09 Jul 2025 12:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jul 2025 11:00:00 -0300</lastBuildDate>
     <atom:link href="https://blog.o-mago.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>1.25</title>
-      <link>https://blog.o-mago.com/tags/1.25/</link>
-      <pubDate>Wed, 09 Jul 2025 12:00:00 -0300</pubDate>
-      <guid>https://blog.o-mago.com/tags/1.25/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Go</title>
       <link>https://blog.o-mago.com/tags/go/</link>
-      <pubDate>Wed, 09 Jul 2025 12:00:00 -0300</pubDate>
+      <pubDate>Fri, 18 Jul 2025 11:00:00 -0300</pubDate>
       <guid>https://blog.o-mago.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical</title>
       <link>https://blog.o-mago.com/tags/technical/</link>
-      <pubDate>Wed, 09 Jul 2025 12:00:00 -0300</pubDate>
+      <pubDate>Fri, 18 Jul 2025 11:00:00 -0300</pubDate>
       <guid>https://blog.o-mago.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebAssembly</title>
+      <link>https://blog.o-mago.com/tags/webassembly/</link>
+      <pubDate>Fri, 18 Jul 2025 11:00:00 -0300</pubDate>
+      <guid>https://blog.o-mago.com/tags/webassembly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.25</title>
+      <link>https://blog.o-mago.com/tags/1.25/</link>
+      <pubDate>Wed, 09 Jul 2025 12:00:00 -0300</pubDate>
+      <guid>https://blog.o-mago.com/tags/1.25/</guid>
       <description></description>
     </item>
     <item>

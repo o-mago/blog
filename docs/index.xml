@@ -9,11 +9,18 @@
       <url>https://blog.o-mago.com/logo.png</url>
       <link>https://blog.o-mago.com/logo.png</link>
     </image>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Alexandre Cabral</copyright>
-    <lastBuildDate>Wed, 09 Jul 2025 12:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jul 2025 11:00:00 -0300</lastBuildDate>
     <atom:link href="https://blog.o-mago.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebAssembly: The Tower of Babel of programming, a Go approach</title>
+      <link>https://blog.o-mago.com/posts/webassembly-the-tower-of-babel-of-programming/</link>
+      <pubDate>Fri, 18 Jul 2025 11:00:00 -0300</pubDate>
+      <guid>https://blog.o-mago.com/posts/webassembly-the-tower-of-babel-of-programming/</guid>
+      <description>A brief introduction to WebAssembly and its relation to Go, with a hands-on example</description>
+    </item>
     <item>
       <title>Concurrent code testing with synctest bubbles in Go</title>
       <link>https://blog.o-mago.com/posts/concurrent-code-testing-with-synctest-bubbles-in-go/</link>

@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.o-mago.com/tags/go/</loc>
+    <lastmod>2025-07-18T11:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://blog.o-mago.com/</loc>
+    <lastmod>2025-07-18T11:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://blog.o-mago.com/tags/</loc>
+    <lastmod>2025-07-18T11:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://blog.o-mago.com/tags/technical/</loc>
+    <lastmod>2025-07-18T11:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://blog.o-mago.com/tags/webassembly/</loc>
+    <lastmod>2025-07-18T11:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://blog.o-mago.com/posts/webassembly-the-tower-of-babel-of-programming/</loc>
+    <lastmod>2025-07-18T11:00:00-03:00</lastmod>
+  </url><url>
     <loc>https://blog.o-mago.com/tags/1.25/</loc>
     <lastmod>2025-07-09T12:00:00-03:00</lastmod>
   </url><url>
     <loc>https://blog.o-mago.com/posts/concurrent-code-testing-with-synctest-bubbles-in-go/</loc>
-    <lastmod>2025-07-09T12:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.o-mago.com/tags/go/</loc>
-    <lastmod>2025-07-09T12:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.o-mago.com/</loc>
-    <lastmod>2025-07-09T12:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.o-mago.com/tags/</loc>
-    <lastmod>2025-07-09T12:00:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.o-mago.com/tags/technical/</loc>
     <lastmod>2025-07-09T12:00:00-03:00</lastmod>
   </url><url>
     <loc>https://blog.o-mago.com/tags/testing/</loc>
