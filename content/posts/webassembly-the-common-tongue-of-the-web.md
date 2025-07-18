@@ -1,5 +1,5 @@
 ---
-title: "WebAssembly: The Tower of Babel of programming, a Go approach"
+title: "WebAssembly: the common tongue of the Web, a Go approach"
 date: 2025-07-18T11:00:00-03:00
 # weight: 1
 # aliases: ["/first"]
@@ -54,7 +54,9 @@ That’s when [WASI](https://wasi.dev/) (WebAssembly System Interface) comes int
 
 You can even have one of these runtimes inside your Kubernetes cluster and, instead of using containers, you can run WebAssembly binaries or run WASM files inside your containers. There’s a CNCF project called [wasmcloud](https://wasmcloud.com/) that can orchestrate your WASM services. It’s still uncertain what the future holds; some say WASM will replace containers as we know them because they’re fast to start, smaller than container images, and secure because they run isolated from the host in their own sandbox. But at the same time, WASM code is limited to the functionalities standardized by WASI, and not all languages have compilers to WASM.
 
-Another use case that I really like is tools where you need SDKs for different languages. You can create the core functionalities in Rust, for example, and compile to WASM. Then, instead of recreating the whole SDK in different languages, you just create the “interfaces” for that specific language that call all the WASM logic from that binary you compiled. Hence the title of the post, it's a 'Tower of Babel', a common way for the programming languages to communicate. A good example is some of the [Flipt’s](https://flipt.io/) SDKs like Go, JavaScript, and React. They have a pretty interesting article about this [choice](https://blog.flipt.io/from-ffi-to-wasm).
+Another use case that I really like is tools where you need SDKs for different languages. You can create the core functionalities in Rust, for example, and compile to WASM. Then, instead of recreating the whole SDK in different languages, you just create the “interfaces” for that specific language that call all the WASM logic from that binary you compiled. A good example is some of the [Flipt’s](https://flipt.io/) SDKs like Go, JavaScript, and React. They have a pretty interesting article about this [choice](https://blog.flipt.io/from-ffi-to-wasm).
+
+Hence the title of the post, it's like a common tongue for the programming languages to communicate between them and with the web itself
 
 ## Go + WebAssembly
 
@@ -128,7 +130,7 @@ func main() {
 
 And as expected, the console printed our message:
 
-![Console outputing 'WebAssembly'](webassembly-the-tower-of-babel-of-programming/console.png)
+![Console outputing 'WebAssembly'](webassembly-the-common-tongue-of-the-web/console.png)
 
 Congratulations, you have just run your first Go code in the browser (if you have never used WebAssembly with Go before, of course 😄).
 
@@ -146,7 +148,7 @@ cp "/usr/local/lib/tinygo/targets/wasm_exec.js" ./assets/wasm_exec.js
 
 The result is the same, but the file size is quite different. Renaming them to `go.wasm` and `tiny-go.wasm`:
 
-![File size comparison](webassembly-the-tower-of-babel-of-programming/file-size.png)
+![File size comparison](webassembly-the-common-tongue-of-the-web/file-size.png)
 
 We can see that the TinyGo one is only 95K and the Go one is 1.5MB, which means 15 times bigger 😱. This is not a good example to dive into performance (maybe in another post), but choose wisely 🧙‍♂️
 

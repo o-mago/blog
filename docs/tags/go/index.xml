@@ -15,10 +15,10 @@
     <lastBuildDate>Fri, 18 Jul 2025 11:00:00 -0300</lastBuildDate>
     <atom:link href="https://blog.o-mago.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>WebAssembly: The Tower of Babel of programming, a Go approach</title>
-      <link>https://blog.o-mago.com/posts/webassembly-the-tower-of-babel-of-programming/</link>
+      <title>WebAssembly: the common tongue of the Web, a Go approach</title>
+      <link>https://blog.o-mago.com/posts/webassembly-the-common-tongue-of-the-web/</link>
       <pubDate>Fri, 18 Jul 2025 11:00:00 -0300</pubDate>
-      <guid>https://blog.o-mago.com/posts/webassembly-the-tower-of-babel-of-programming/</guid>
+      <guid>https://blog.o-mago.com/posts/webassembly-the-common-tongue-of-the-web/</guid>
       <description>A brief introduction to WebAssembly and its relation to Go, with a hands-on example</description>
     </item>
     <item>
